@@ -1,0 +1,26 @@
+while balls on grid
+    select a tip point according to backtrack methods
+    
+    "damage this tile"
+
+    while bullets on grid
+        for each step
+            move the bullet according to its orientation 
+            for each bullet
+                determine if it made damage to its tile (ball)
+                if yes
+                    set the tile (bal) to damage
+                    destroy the bullet
+                check, if it is off the grid
+                if yes
+                    destroy the bullet
+                    
+            for each tile, 
+                determine the damage
+                if damage true
+                    ("damage this tile")
+                    change state
+                    if state == destroy
+                        add four bullets (four dirs) 
+
+print list of tip points
